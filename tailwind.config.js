@@ -10,13 +10,17 @@ module.exports = {
       container: {
         center: true,
         padding: {
-          DEFAULT: '16px',
+          DEFAULT: "16px",
         },
         screens: {
-          sm: '80rem',
+          sm: "70rem",
         },
+      },
+      fontFamily: {
+        body: ["BPG Arial", "sans-serif"],
+        display: ["BPG Arial Caps", "sans-serif"],
       },
     },
   },
   plugins: [],
-}
+};
