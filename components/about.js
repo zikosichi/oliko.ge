@@ -8,7 +8,7 @@ export function About() {
           <H2>ჩემ შესახებ</H2>
         </div>
         <div className="col-span-8">
-          <div className="bg-[#F4FFFF] py-20 px-24 relative">
+          <div className="bg-[#F4FFFF] border-[#EEFBFB] border-2 py-20 px-24 relative">
             <img src="/assets/dots.svg" alt="" className="absolute top-0 right-0 translate-x-1/2 -translate-y-1/2" />
             <img src="/assets/dots.svg" alt="" className="absolute bottom-0 left-0 rotate-180 -translate-x-1/2 translate-y-1/2" />
             <div className="py-4 pl-12 mb-8 border-l-4 border-indigo-500">

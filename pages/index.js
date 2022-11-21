@@ -1,8 +1,10 @@
 import Head from "next/head";
 import { FiPhoneCall } from "react-icons/fi";
 import { About } from "../components/about";
+import { Faq } from "../components/faq";
 import { Hero } from "../components/hero";
 import { Services } from "../components/services";
+import { Testimonials } from "../components/testimonials";
 
 export default function Home() {
   return (
@@ -40,8 +42,14 @@ export default function Home() {
         <div className="mb-60">
           <About />
         </div>
-        <div className="my-64">
+        <div className="mb-60">
           <Services />
+        </div>
+        <div className="mb-60">
+          <Faq />
+        </div>
+        <div className="mb-60">
+          <Testimonials />
         </div>
       </main>
 

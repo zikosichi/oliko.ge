@@ -14,24 +14,19 @@ function Check({children}) {
 export function Services() {
   return (
     <div className="container">
-      <div className="grid grid-cols-12 gap-8 mb-14">
-        <div className="col-span-4"></div>
-        <div className="col-span-8">
-          <H2>სერვისი</H2>
-        </div>
-      </div>
-      <div className="grid grid-cols-12 gap-8">
-        <div className="col-span-4">
-          <div className="flex items-center gap-6 px-6 h-[115px] text-xl text-white bg-indigo-400 rounded-xl mb-4">
+      <H2 className="text-center mb-14">სერვისი</H2>
+      <div className="grid grid-cols-2 gap-8">
+        <div className="flex flex-col items-end">
+          <div className="flex max-w-[340px] w-full items-center gap-6 px-6 h-[115px] text-xl text-white bg-gradient-to-r from-indigo-400 to-indigo-500 rounded-xl mb-4">
             <SlLocationPin className="text-5xl text-white opacity-50 shrink-0"/>
             ადგილზე ვიზიტი
           </div>
-          <div className="flex items-center gap-6 px-6 h-[115px] text-xl text-white bg-red-400 rounded-xl">
+          <div className="flex max-w-[340px] w-full items-center gap-6 px-6 h-[115px] text-xl text-white bg-gradient-to-r from-red-400 to-red-500 rounded-xl">
             <SlPhone className="text-5xl text-white opacity-50 shrink-0"/>
             უფასო სატელეფონო კონსულტაცია
           </div>
         </div>
-        <div className="col-span-8">
+        <div>
           <Check>მეძუძური დედის მკერდის მასაჟი</Check>
           <Check>ლაქტაციის დასრულება</Check>
           <Check>რეკომენდაციები ბავშვის მოვლაზე</Check>
