@@ -3,7 +3,7 @@ import { FiPhoneCall } from "react-icons/fi";
 export function Footer() {
   return (
     <div>
-      <div className="container flex flex-col items-center mb-44">
+      <div className="container flex flex-col items-center mb-32 md:mb-44">
         <button className="bg-[#667EF6] hover:bg-[#6e85f7] transition-colors mb-3 rounded-full flex items-center py-3 px-7 gap-2 text-white">
           დაჯავშნე ვიზიტი
         </button>

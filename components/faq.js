@@ -7,12 +7,12 @@ function Question({ children, question }) {
 
   return (
     <div className="bg-[#F4FFFF] border-[#EEFBFB] border-2 mb-3 text-left w-full">
-      <div className="flex items-center gap-4 px-8 py-6 text-2xl cursor-pointer hover:text-indigo-700" onClick={() => setExpanded(!expanded)}>
-        <FiPlus />
+      <div className="flex items-center gap-4 px-4 py-4 text-xl cursor-pointer md:px-8 md:py-6 md:text-2xl hover:text-indigo-700" onClick={() => setExpanded(!expanded)}>
+        <FiPlus className="text-3xl md:text-base" />
         {question}
       </div>
       {expanded && (
-        <div className="flex gap-4 px-8 py-6 pt-0 pl-8 text-xl text-gray-500">
+        <div className="flex gap-4 px-2 py-4 pt-0 text-xl text-gray-500 md:px-8 md:py-6">
           <FiPlus className="opacity-0 shrink-0" />
           {children}
         </div>

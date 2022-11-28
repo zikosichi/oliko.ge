@@ -37,19 +37,19 @@ export default function Home() {
       </div>
 
       <main>
-        <div className="mb-52">
+        <div className="mb-24 md:mb-52">
           <Hero/>
         </div>
-        <div className="mb-60">
+        <div className="mb-44 md:mb-60">
           <About />
         </div>
-        <div className="mb-60">
+        <div className="mb-40 md:mb-60">
           <Services />
         </div>
-        <div className="mb-60">
+        <div className="mb-40 md:mb-60">
           <Faq />
         </div>
-        <div className="mb-60">
+        <div className="mb-40 md:mb-60">
           <Testimonials />
         </div>
         <div>

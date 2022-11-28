@@ -21,7 +21,7 @@ export function Testimonials() {
     <div className="container">
       <H2 className="mb-32 text-center">რეკომენდაციები</H2>
 
-      <div className="grid grid-cols-3 gap-x-9 gap-y-20">
+      <div className="grid md:grid-cols-3 gap-x-9 gap-y-20">
         <Item image="https://cdn.pixabay.com/photo/2021/06/11/12/26/woman-6328478_960_720.jpg">
           საოცარი სერვისი, გადასარევი ადამიანი, აღმაფრთო ვანებელი სიხარული
           სიყვარული სითბო და ბარაქა

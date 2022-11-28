@@ -4,7 +4,7 @@ import { H1 } from "../components/typography";
 export function Hero() {
   return (
     <div className="container py-20">
-      <div className="grid items-center grid-cols-2 gap-12">
+      <div className="grid items-center grid-cols-1 gap-12 md:grid-cols-2">
         <div>
           <img
             className="rounded-3xl"
