@@ -2,6 +2,7 @@ import Head from "next/head";
 import { FiPhoneCall } from "react-icons/fi";
 import { About } from "../components/about";
 import { Faq } from "../components/faq";
+import { Footer } from "../components/footer";
 import { Hero } from "../components/hero";
 import { Services } from "../components/services";
 import { Testimonials } from "../components/testimonials";
@@ -51,9 +52,10 @@ export default function Home() {
         <div className="mb-60">
           <Testimonials />
         </div>
+        <div>
+          <Footer />
+        </div>
       </main>
-
-      <footer></footer>
     </div>
   );
 }

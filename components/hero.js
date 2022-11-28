@@ -22,7 +22,7 @@ export function Hero() {
           </H1>
 
           <a href="tel:593227050">
-            <button className="bg-[#667EF6] mb-3 rounded-full flex items-center py-3 px-7 gap-2 text-white">
+            <button className="bg-[#667EF6] hover:bg-[#6e85f7] transition-colors mb-3 rounded-full flex items-center py-3 px-7 gap-2 text-white">
               <FiPhoneCall />
               დაჯავშნე ვიზიტი
             </button>
